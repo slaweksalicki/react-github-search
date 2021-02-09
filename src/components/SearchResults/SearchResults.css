@@ -1,0 +1,13 @@
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+li {
+  padding: 1em;
+  border-bottom: solid 1px #282c34;
+  border-top: solid 1px #282c34;
+  cursor: pointer;
+}

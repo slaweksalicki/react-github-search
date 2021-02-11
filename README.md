@@ -1,6 +1,13 @@
 https://github-repos-search-react.herokuapp.com/
 
+Deploy to Heroku
 
+git init
+heroku create -b https://github.com/mars/create-react-app-buildpack.git
+git add .
+git commit -m "react-create-app on Heroku"
+git push heroku master
+heroku open
 
 # Getting Started with Create React App
 

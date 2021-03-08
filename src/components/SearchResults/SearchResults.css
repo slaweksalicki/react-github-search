@@ -11,3 +11,10 @@ li {
   border-top: solid 1px #282c34;
   cursor: pointer;
 }
+
+.search-results__info {
+  font-size: 0.75rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}

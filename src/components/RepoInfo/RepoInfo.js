@@ -7,7 +7,7 @@ const RepoInfo = (props) => {
       <div className="popup">
         <div className="popup__top">
           <button className="popup__close" onClick={() => props.clicked()}>
-            Close
+            X
           </button>
           <img
             className="popup__avatar"
@@ -27,7 +27,7 @@ const RepoInfo = (props) => {
           <h3>{props.clickedRepo.name}</h3>
         </a>
         <p>Description: {props.clickedRepo.description}</p>
-        <p>Language: {props.clickedRepo.language}</p>
+        <p className="popup__lang">Language: {props.clickedRepo.language}</p>
       </div>
     </div>
   );

@@ -4,12 +4,12 @@ https://github-repos-search-react.herokuapp.com/
 
 # Deploy to Heroku
 
-git init
-heroku create -b https://github.com/mars/create-react-app-buildpack.git
-git add .
-git commit -m "react-create-app on Heroku"
-git push heroku master
-heroku open
+git init\
+heroku create -b https://github.com/mars/create-react-app-buildpack.git\
+git add .\
+git commit -m "react-create-app on Heroku"\
+git push heroku master\
+heroku open\
 
 # Getting Started with Create React App
 
@@ -41,11 +41,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
